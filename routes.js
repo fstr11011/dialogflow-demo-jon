@@ -133,7 +133,7 @@ router.post("/", function(req, res, next){
 
                     var jobData = {
                         startInfo: {
-                            ReleaseKey: "36ba6a22-0248-458a-943a-8f54ae31966c",
+                            ReleaseKey: "df4d61f6-db01-444f-bfe7-cac7141071ec",
                             Strategy: "All",
                             RobotIds: [],
                             NoOfRobots: 0
@@ -245,7 +245,7 @@ router.post("/", function(req, res, next){
 
                 var jobData = {
                     startInfo: {
-                        ReleaseKey: "4c08f67e-184a-4f5f-bbe1-8e5d77a2ea92",
+                        ReleaseKey: "fefed1a3-9088-4672-9677-a8953a3f393",
                         Strategy: "All",
                         RobotIds: [],
                         NoOfRobots: 0
