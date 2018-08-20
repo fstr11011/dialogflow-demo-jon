@@ -1,0 +1,6 @@
+{
+    "action": "employeeLookUp",
+    "parameters": {
+        "employeeNumber": 12345
+    }
+}
