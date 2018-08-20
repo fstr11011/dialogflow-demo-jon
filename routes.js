@@ -175,8 +175,10 @@ router.post("/", function(req, res, next){
             }
         });
 
-        UserInfo.findOneAndUpdate({employeeNumber: employeeNumber}, {address: addressChange}, function(err, info){
-            if(err) return err;
+        UserInfo.update({employeeNumber: employeeNumber}, {
+            address: addressChange
+        }, function(err, affected, resp) {
+           console.log(resp);
         });
   
     }
@@ -278,12 +280,6 @@ router.post("/", function(req, res, next){
                     } else {
                        console.log("Job succesfully started");
                     }
-                });
-
-                UserInfo.update({employeeNumber: employeeNumber}, {
-                    address: addressChange
-                }, function(err, affected, resp) {
-                   console.log(resp);
                 });
 
             });
