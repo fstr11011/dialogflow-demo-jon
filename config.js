@@ -5,6 +5,6 @@ module.exports = {
     tenancyName: "Training",
     usernameOrEmailAddress: "Jon",
     password: "123FromNYtoGermany",
-    auth: "https://orchestratorrby.roboyoapps.com/api/Account",
+    auth: "https://orchestratorrby.roboyoapps.com/api/Account/authenticate",
     queueUrl: "https://orchestratorrby.roboyoapps.com/odata/Queues/UiPathODataSvc.AddQueueItem"
 }
