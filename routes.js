@@ -129,11 +129,11 @@ router.post("/", function(req, res, next){
                         url: queueURL
                     };
 
-                    var jobURL = "https://platform.uipath.com/odata/Jobs/UiPath.Server.Configuration.OData.StartJobs";
+                    var jobURL = "https://orchestratorrby.roboyoapps.com/odata/Jobs/UiPath.Server.Configuration.OData.StartJobs";
 
                     var jobData = {
                         startInfo: {
-                            ReleaseKey: "df4d61f6-db01-444f-bfe7-cac7141071ec",
+                            ReleaseKey: "8c83f0c4-d8a1-48d1-b0bc-9028e4df363c",
                             Strategy: "All",
                             RobotIds: [],
                             NoOfRobots: 0
@@ -241,11 +241,11 @@ router.post("/", function(req, res, next){
                     url: queueURL
                 };
 
-                var jobURL = "https://platform.uipath.com/odata/Jobs/UiPath.Server.Configuration.OData.StartJobs";
+                var jobURL = "https://orchestratorrby.roboyoapps.com/odata/Jobs/UiPath.Server.Configuration.OData.StartJobs";
 
                 var jobData = {
                     startInfo: {
-                        ReleaseKey: "fefed1a3-9088-4672-9677-a8953a3f3939",
+                        ReleaseKey: "1d304037-ff6d-4a26-af76-0ca483d10f41",
                         Strategy: "All",
                         RobotIds: [],
                         NoOfRobots: 0

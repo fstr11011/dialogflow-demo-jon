@@ -2,9 +2,9 @@
 
 module.exports = {
     dbUrl: "mongodb://mtg:mtg321@ds215172.mlab.com:15172/dialogflow-demo",
-    tenancyName: "Roboyo_JBEARD",
-    usernameOrEmailAddress: "Jbeard",
-    password: "P@ssword2",
-    auth: "https://platform.uipath.com/api/account/authenticate",
-    queueUrl: "https://platform.uipath.com/odata/Queues/UiPathODataSvc.AddQueueItem"
+    tenancyName: "Training",
+    usernameOrEmailAddress: "Jon",
+    password: "123FromNYtoGermany",
+    auth: "https://orchestratorrby.roboyoapps.com/api/Account",
+    queueUrl: "https://orchestratorrby.roboyoapps.com/odata/Queues/UiPathODataSvc.AddQueueItem"
 }
