@@ -129,7 +129,8 @@ router.post("/", function(req, res, next){
                         url: queueURL
                     };
 
-                    var jobURL = "https://orchestratorrby.roboyoapps.com/odata/Jobs/UiPath.Server.Configuration.OData.StartJobs";
+                    // var jobURL = "https://orchestratorrby.roboyoapps.com/odata/Jobs/UiPath.Server.Configuration.OData.StartJobs";
+                    var jobURL = "https://platform.uipath.com/odata/Jobs/UiPath.Server.Configuration.OData.StartJobs";
 
                     var jobData = {
                         startInfo: {
@@ -241,7 +242,8 @@ router.post("/", function(req, res, next){
                     url: queueURL
                 };
 
-                var jobURL = "https://orchestratorrby.roboyoapps.com/odata/Jobs/UiPath.Server.Configuration.OData.StartJobs";
+                // var jobURL = "https://orchestratorrby.roboyoapps.com/odata/Jobs/UiPath.Server.Configuration.OData.StartJobs";
+                var jobURL = "https://platform.uipath.com/odata/Jobs/UiPath.Server.Configuration.OData.StartJobs";
 
                 var jobData = {
                     startInfo: {
