@@ -134,7 +134,7 @@ router.post("/", function(req, res, next){
 
                     var jobData = {
                         startInfo: {
-                            ReleaseKey: "8c83f0c4-d8a1-48d1-b0bc-9028e4df363c",
+                            ReleaseKey: "df4d61f6-db01-444f-bfe7-cac7141071ec",
                             Strategy: "All",
                             RobotIds: [],
                             NoOfRobots: 0
